@@ -1,0 +1,99 @@
+@import "./partials/variables";
+
+.accordion__button {
+    display: block;
+    width: 100%;
+    padding: 15px;    
+    outline: none;
+    cursor: pointer;
+    background: none;
+    color: #0B0730;
+    text-align: left;
+    transition: background 0.2s;   
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.accordion__button::after {
+    content: '\25be';
+    float: right;
+    transform: scale(1.5);
+
+}
+.accordion__button--active + .accordion__content{ display: block;}
+.accordion__button--active { background: #f5bb51e5 ;}
+.accordion__button--active::after { content: '\25b4' ;}
+
+.accordion__content {
+     
+    padding: 0 15px 0px ;
+    font-family: sans-serif;
+    background: rgb(255, 208, 121);
+    display: none;
+    overflow: auto;
+    font-size: 1.3em;
+}
+
+
+
+
+.tituloCursos{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    text-decoration: underline;
+    background-color: rgb(255, 153, 0);
+    font-family: 'italic';
+    
+}
+.subTituloCursos{
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: underline;
+    padding-left: 1rem ;
+    margin-top: 4rem;
+    background-color: rgb(250, 179, 49);
+}
+.cursiva{
+    font-style: italic;
+    margin-left: 2rem;
+  
+    font-size: 1em;
+
+}
+
+.linkAcordeon{
+    text-decoration: none;
+    color: #0B0730;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+.estiloLi{
+  
+    font-weight: normal;
+    list-style: circle;
+    width: 65%;
+    font-size: 0.9em;
+
+
+
+}
+.subTituloCursos{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.niveles{
+    font-size: 1.4em;
+    font-weight: bolder;
+
+}
+.lecciones{
+    text-decoration: underline;
+
+}
+
+

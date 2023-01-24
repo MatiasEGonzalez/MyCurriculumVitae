@@ -1,0 +1,102 @@
+@media screen and (min-width: 620px){
+.render{
+	position: relative;
+	margin-top: 0px;
+	width: 100%;
+	height: 70px;
+	z-index: 999;
+	
+	
+	
+	
+	&__logo{
+		height: 65px;
+		width: 65px;
+		margin: 0px 2px;
+		background: none;
+	}
+	&__h1{
+		display: inline-block;
+		vertical-align: middle;
+		font-size: 1.1em;
+		margin-top: 10px;
+
+	}
+	
+	
+	
+
+.navbar{
+	padding: 0px;
+	z-index: 999;
+}
+.nav-link{
+	font-size: 1.2em;
+	z-index: 999;
+}
+.nav-link:hover{
+	font-size: 1.5em;	
+	z-index: 999;
+
+}
+
+}
+
+}
+
+@media screen and (max-width: 620px){
+	.render{
+		position: relative;
+		margin-top: 0px;
+		width: 100%;
+		height: 60px;
+		z-index: 999;
+		
+		
+		
+		
+		&__logo{
+			height: 65px;
+			width: 65px;
+			margin: 0px 2px;
+			background: none;
+		}
+		&__h1{
+			display: inline-block;
+			vertical-align: middle;
+			font-size: 0.9em;
+			margin-top: 10px;
+	
+		}
+
+}
+}
+
+@media screen and (max-width: 490px){
+	.render{
+		position: relative;
+		margin-top: 0px;
+		width: 100%;
+		height: 50px;
+		z-index: 999;
+		
+		
+		
+		
+		&__logo{
+			height: 55px;
+			width: 55px;
+			margin: 0px 2px;
+			background: none;
+		}
+		&__h1{
+			display: inline-block;
+			vertical-align: middle;
+			font-size: 0.6em;
+			margin-top: 10px;
+	
+		}
+
+    
+}
+}

@@ -1,0 +1,182 @@
+@import "./partials/variables";
+@import "./partials/fuentes";
+@import "./partials/header";
+@import "./partials/footer";
+@import "./partials/formulario"; 
+
+
+
+@media screen and (min-width: 620px){
+
+
+	body{
+		position: relative;	
+		background: $color-fondo;
+				 
+	}
+	
+
+	.redes{	
+		z-index: 999;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 6%;
+	
+		&__iconos{	
+			z-index: 999;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		&__enlaces{		
+			margin: 2px;
+			z-index: 999;
+			text-decoration: none;
+		}
+		&__figure{
+			width: $ancho - 65px;
+			height: 35px;
+			margin: 2px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			
+		}
+	
+		&__img{		
+			margin: 2px;
+			z-index: 999;
+			width: 100%;
+			height: 100%;
+		}
+		&__img:hover{
+			width: 40px;
+			height: 40px;
+			
+		}
+	
+	
+	}
+	
+
+
+}
+
+
+@media screen and (max-width: 620px){
+
+	
+	body{
+		position: relative;	
+		background: $color-fondo;
+				 
+	}
+	
+	
+
+	
+	  .redes{	
+		z-index: 999;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 12%;
+	
+		&__iconos{	
+			z-index: 999;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		&__enlaces{		
+			margin: 1px;
+			z-index: 999;
+			text-decoration: none;
+		}
+		&__figure{
+			width: 30px;
+			height: 30px;
+			margin: 2px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			
+		}
+	
+		&__img{		
+			margin: 2px;
+			z-index: 999;
+			width: 100%;
+			height: 100%;
+		}
+		&__img:hover{
+			width: 35px;
+			height: 35px;
+			
+		}
+	
+	}
+
+
+}
+
+@media screen and (max-width: 490px){
+
+	body{
+		position: relative;	
+		background: $color-fondo;
+				 
+	}
+	
+
+	
+	
+	
+	
+	
+	.redes{	
+			z-index: 999;
+			display: block;
+			justify-content: center;
+			align-items: center;
+			margin-top: 10%;
+		
+			&__iconos{	
+				z-index: 999;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				
+				
+			}
+			&__enlaces{		
+				margin: 1px;
+				z-index: 999;
+				text-decoration: none;
+			}
+			&__figure{
+				width: 25px;
+				height: 25px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				
+			}
+		
+				
+			
+			&__img{		
+				margin: 4px;
+				z-index: 999;
+				width: 100%;
+				height: 100%;
+			}
+			&__img:hover{
+				width: 35px;
+				height: 35px;
+				
+			}
+		
+		}
+	}

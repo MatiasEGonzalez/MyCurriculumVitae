@@ -1,0 +1,42 @@
+@font-face{
+	font-family: "Rubik-Italic";
+	src: url("fonts/Rubik-Italic.eot");
+	src: local('?'),
+		url(fonts/Rubik-Italic.woff);
+}
+
+@font-face{
+	font-family: "Rubik-Regular";
+	src: url("fonts/Rubik-Regular.eot");
+	src: local('?'),
+		url(fonts/Rubik-Regular.woff);
+}
+
+@font-face{
+	font-family: "Aller";
+	src: url("fonts/Aller.eot");
+	src: local('?'),
+		url(fonts/Aller.woff);
+}
+
+
+
+h1 > a{
+	font-family: 'Montserrat';
+
+}
+
+
+nav div ul{
+	font-family: 'Aller';
+}
+
+figure > h2 {
+	font-family: 'Rubik-Italic';
+}
+
+
+div > h2{
+	font-family: 'Montserrat';
+	
+}
