@@ -586,8 +586,8 @@ body {
     display: flex;
   }
   .contenido__cajas {
-    margin-left: -40px;
-    margin-top: -30px;
+    margin-left: 0px;
+    margin-top: 0px;
   }
   .box {
     display: inline-block;

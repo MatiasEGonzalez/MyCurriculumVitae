@@ -688,11 +688,12 @@ body {
     color: #1DC8C6;
     z-index: 999;
   }
-  .carrusel__titulo {
-    position: absolute;
-    z-index: 999;
-    color: wheat;
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.6);
+  .carrusel {
+    top: 30px .carrusel __titulo;
+    top-position: absolute;
+    top-z-index: 999;
+    top-color: wheat;
+    top-box-shadow: 0 8px 12px rgba(0, 0, 0, 0.6);
   }
   .carrusel__animaciones {
     position: relative;
